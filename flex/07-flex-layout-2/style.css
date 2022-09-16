@@ -21,11 +21,16 @@ body {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  text-align: center;
+  line-height: 72px;
 }
 
 .sidebar {
+  box-sizing: border-box;
   width: 300px;
   background: royalblue;
+  padding: 16px;
+  flex:none;
 }
 
 .card {
@@ -51,9 +56,24 @@ flex: none;
 .cards {
   display: flex;
   flex-wrap: wrap;
-  margin: 2em;
+  margin: 32px;
   gap: 1em;
 
+
   
+
+}
+
+ul {
+font-size: 24px;
+list-style: none;
+margin: 0;
+padding: 0;
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
 
 }
